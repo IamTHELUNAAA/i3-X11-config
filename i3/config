@@ -206,7 +206,7 @@ for_window [class="Spotify"] move to output HDMI-0, move up
 #Start ups
 exec --no-startup-id ~/.config/display.sh
 exec --no-startup-id picom -b
-exec --no-startup-id sh -c 'sleep 1 && feh --bg-fill file:///home/lily/Pictures/wallpapers/new2.0.jpg'
+exec --no-startup-id sh -c 'sleep 1 && feh --bg-fill file:///home/lily/config/i3/wallpaper'
 exec --no-startup-id ulauncher --hide-window
 exec --no-startup-id ulauncher --hide-window
 #exec --no-startup-id xrandr --output DP-4 --mode 2560x1440 --rate 180
